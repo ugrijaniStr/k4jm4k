@@ -1,3 +1,5 @@
+const statuses = document.querySelectorAll('#status');
+
 statuses.forEach(status => {
     if(status.textContent.trim() === 'Online') {
         status.style.color = 'rgb(30, 255, 0)';
